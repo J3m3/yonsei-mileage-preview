@@ -9,5 +9,4 @@ function injectScript(file) {
   };
 }
 
-// Call injectScript with the path to injectScript.js
 injectScript("injected.js");
