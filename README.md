@@ -1,9 +1,14 @@
 # yonsei-mileage-preview
 
-스크립트를 크롬 확장 프로그램을 통해 주입해 마일리지 수강 신청 결과를 조회합니다.
+> [!NOTE]
+> 스크립트를 주입해 마일리지 수강 신청 결과를 미리 조회합니다.
 
 - 수강 신청 결과는 `F12` 단축키를 통해 열 수 있는 개발자 도구의 콘솔에서 확인할 수 있습니다.
 - URL 패턴이 `https://underwood1.yonsei.ac.kr/*`과 매칭될 때만 스크립트가 동작합니다.
+
+## Sample Image
+
+![sample](images/sample.png)
 
 ## Installation
 
@@ -29,10 +34,6 @@ yonsei-mileage-preview
 3. 오른쪽 상단의 `개발자 모드`를 켜 줍니다.
 4. 상단 툴바의 `압축해제된 확장 프로그램을 로드합니다.`를 클릭한 뒤, `yonsei-mileage-preview` 디렉토리를 선택합니다.
 5. 확장 프로그램을 활성화합니다. (URL 패턴이라는 제한이 걸려 있긴 하나, 마일리지 결과를 조회할 때만 사용할 것을 권합니다)
-
-## Sample Image
-
-![sample](images/sample.png)
 
 ## 주입되는 스크립트 ([injected.js](injected.js))
 
