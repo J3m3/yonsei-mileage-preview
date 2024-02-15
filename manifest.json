@@ -1,0 +1,20 @@
+{
+  "name": "Yonsei Mileage Preview",
+  "description": "Go Check Your Ns",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["scripting"],
+  "content_scripts": [
+    {
+      "js": ["inject.js"],
+      "matches": ["https://underwood1.yonsei.ac.kr/*"],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["injected.js"],
+      "matches": ["https://underwood1.yonsei.ac.kr/*"]
+    }
+  ]
+}
