@@ -9,7 +9,7 @@
 
 ### Direct Injection
 
-1. 브라우저 콘솔에 `injected.js` 파일의 내용을 붙여넣고 실행합니다.
+1. 브라우저 콘솔에 [`injected.js`](injected.js) 파일의 내용을 붙여넣고 실행합니다.
 
 ### Via Chrome Extension
 
